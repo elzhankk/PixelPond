@@ -1,21 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SearchTextCollectionViewCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SearchTextCollectionViewCell" customModule="PixelPond" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dc-sv-qoE">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AG6-J5-4O2">
+                                <rect key="frame" x="0.0" y="10" width="200" height="40"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xdC-zC-z1o">
+                                        <rect key="frame" x="8" y="8" width="184" height="24"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UpS-DO-03v">
+                                                <rect key="frame" x="0.0" y="0.99999999999999822" width="24" height="22.666666666666664"/>
+                                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="UpS-DO-03v" secondAttribute="height" id="943-2w-hfN"/>
+                                                    <constraint firstAttribute="height" constant="24" id="wOz-ZB-bN0"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlW-5s-Heh">
+                                                <rect key="frame" x="32" y="0.0" width="120" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcl-nm-W1i">
+                                                <rect key="frame" x="160" y="0.0" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Vcl-nm-W1i" secondAttribute="height" id="ZKB-Xb-O74"/>
+                                                </constraints>
+                                                <color key="tintColor" red="1" green="0.14901960784313725" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="deleteButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Cx6-of-Lrx"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="xdC-zC-z1o" firstAttribute="top" secondItem="AG6-J5-4O2" secondAttribute="top" constant="8" id="Cmw-ie-X8P"/>
+                                    <constraint firstItem="xdC-zC-z1o" firstAttribute="leading" secondItem="AG6-J5-4O2" secondAttribute="leading" constant="8" id="GQ1-p9-nXC"/>
+                                    <constraint firstAttribute="bottom" secondItem="xdC-zC-z1o" secondAttribute="bottom" constant="8" id="XW2-QV-tVM"/>
+                                    <constraint firstAttribute="trailing" secondItem="xdC-zC-z1o" secondAttribute="trailing" constant="8" id="bIT-eN-wsU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="Dz7-IQ-UMR"/>
+                            <constraint firstAttribute="trailing" secondItem="AG6-J5-4O2" secondAttribute="trailing" id="Ptb-Oj-bIE"/>
+                            <constraint firstItem="AG6-J5-4O2" firstAttribute="centerY" secondItem="4dc-sv-qoE" secondAttribute="centerY" id="gQg-ca-0c3"/>
+                            <constraint firstItem="AG6-J5-4O2" firstAttribute="leading" secondItem="4dc-sv-qoE" secondAttribute="leading" id="zd9-JI-gGw"/>
+                        </constraints>
+                    </view>
+                </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="4dc-sv-qoE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FBZ-th-gW0"/>
+                <constraint firstItem="4dc-sv-qoE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KRi-mA-INQ"/>
+                <constraint firstAttribute="trailing" secondItem="4dc-sv-qoE" secondAttribute="trailing" id="PDn-j4-0gj"/>
+                <constraint firstAttribute="bottom" secondItem="4dc-sv-qoE" secondAttribute="bottom" id="jTA-am-tsy"/>
+            </constraints>
+            <connections>
+                <outlet property="cardView" destination="AG6-J5-4O2" id="8uQ-An-TN9"/>
+                <outlet property="titleLabel" destination="jlW-5s-Heh" id="5kn-5J-qq6"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="-12"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="clock" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

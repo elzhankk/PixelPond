@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A415DF02B390B4200329538 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A415DEE2B390B4200329538 /* PhotoCollectionViewCell.swift */; };
+		1A415DF12B390B4200329538 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A415DEF2B390B4200329538 /* PhotoCollectionViewCell.xib */; };
+		1A5124AB2B370FA100CCCC7C /* SearchPhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5124AA2B370FA100CCCC7C /* SearchPhotosResponse.swift */; };
+		1A64BE1A2B1968E300FCD12A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64BE182B1968E300FCD12A /* MainViewController.swift */; };
+		1A64BE1B2B1968E300FCD12A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A64BE192B1968E300FCD12A /* MainViewController.xib */; };
+		1A9FC0C12B3C81EC00AC93DA /* ImageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FC0BF2B3C81EC00AC93DA /* ImageScrollViewController.swift */; };
+		1A9FC0C22B3C81EC00AC93DA /* ImageScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FC0C02B3C81EC00AC93DA /* ImageScrollViewController.xib */; };
+		1A9FC0C52B3C881900AC93DA /* SearchTextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FC0C32B3C881900AC93DA /* SearchTextCollectionViewCell.swift */; };
+		1A9FC0C62B3C881900AC93DA /* SearchTextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FC0C42B3C881900AC93DA /* SearchTextCollectionViewCell.xib */; };
 		1AB18FC42B13860400988996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18FC32B13860400988996 /* AppDelegate.swift */; };
 		1AB18FC62B13860400988996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18FC52B13860400988996 /* SceneDelegate.swift */; };
-		1AB18FC82B13860400988996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18FC72B13860400988996 /* ViewController.swift */; };
-		1AB18FCB2B13860400988996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB18FC92B13860400988996 /* Main.storyboard */; };
 		1AB18FCD2B13860500988996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB18FCC2B13860500988996 /* Assets.xcassets */; };
 		1AB18FD02B13860500988996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB18FCE2B13860500988996 /* LaunchScreen.storyboard */; };
+		1AB18FD92B1387D100988996 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18FD72B1387D100988996 /* OnboardingViewController.swift */; };
+		1AB18FDA2B1387D100988996 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB18FD82B1387D100988996 /* OnboardingViewController.xib */; };
+		1AB18FDD2B13922E00988996 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18FDB2B13922E00988996 /* OnboardingCollectionViewCell.swift */; };
+		1AB18FDE2B13922E00988996 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB18FDC2B13922E00988996 /* OnboardingCollectionViewCell.xib */; };
+		1AB18FE02B139A2F00988996 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18FDF2B139A2F00988996 /* OnboardingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A415DEE2B390B4200329538 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A415DEF2B390B4200329538 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		1A5124AA2B370FA100CCCC7C /* SearchPhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosResponse.swift; sourceTree = "<group>"; };
+		1A64BE182B1968E300FCD12A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1A64BE192B1968E300FCD12A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1A9FC0BF2B3C81EC00AC93DA /* ImageScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollViewController.swift; sourceTree = "<group>"; };
+		1A9FC0C02B3C81EC00AC93DA /* ImageScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageScrollViewController.xib; sourceTree = "<group>"; };
+		1A9FC0C32B3C881900AC93DA /* SearchTextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A9FC0C42B3C881900AC93DA /* SearchTextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTextCollectionViewCell.xib; sourceTree = "<group>"; };
 		1AB18FC02B13860400988996 /* PixelPond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB18FC32B13860400988996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB18FC52B13860400988996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AB18FC72B13860400988996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1AB18FCA2B13860400988996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AB18FCC2B13860500988996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB18FCF2B13860500988996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AB18FD12B13860500988996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB18FD72B1387D100988996 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		1AB18FD82B1387D100988996 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		1AB18FDB2B13922E00988996 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AB18FDC2B13922E00988996 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		1AB18FDF2B139A2F00988996 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +82,23 @@
 			children = (
 				1AB18FC32B13860400988996 /* AppDelegate.swift */,
 				1AB18FC52B13860400988996 /* SceneDelegate.swift */,
-				1AB18FC72B13860400988996 /* ViewController.swift */,
-				1AB18FC92B13860400988996 /* Main.storyboard */,
 				1AB18FCC2B13860500988996 /* Assets.xcassets */,
 				1AB18FCE2B13860500988996 /* LaunchScreen.storyboard */,
+				1AB18FD72B1387D100988996 /* OnboardingViewController.swift */,
+				1AB18FD82B1387D100988996 /* OnboardingViewController.xib */,
+				1AB18FDB2B13922E00988996 /* OnboardingCollectionViewCell.swift */,
+				1AB18FDC2B13922E00988996 /* OnboardingCollectionViewCell.xib */,
 				1AB18FD12B13860500988996 /* Info.plist */,
+				1AB18FDF2B139A2F00988996 /* OnboardingModel.swift */,
+				1A64BE182B1968E300FCD12A /* MainViewController.swift */,
+				1A64BE192B1968E300FCD12A /* MainViewController.xib */,
+				1A9FC0BF2B3C81EC00AC93DA /* ImageScrollViewController.swift */,
+				1A9FC0C02B3C81EC00AC93DA /* ImageScrollViewController.xib */,
+				1A5124AA2B370FA100CCCC7C /* SearchPhotosResponse.swift */,
+				1A415DEE2B390B4200329538 /* PhotoCollectionViewCell.swift */,
+				1A415DEF2B390B4200329538 /* PhotoCollectionViewCell.xib */,
+				1A9FC0C32B3C881900AC93DA /* SearchTextCollectionViewCell.swift */,
+				1A9FC0C42B3C881900AC93DA /* SearchTextCollectionViewCell.xib */,
 			);
 			path = PixelPond;
 			sourceTree = "<group>";
@@ -103,7 +139,7 @@
 				};
 			};
 			buildConfigurationList = 1AB18FBB2B13860400988996 /* Build configuration list for PBXProject "PixelPond" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,9 +161,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9FC0C22B3C81EC00AC93DA /* ImageScrollViewController.xib in Resources */,
 				1AB18FD02B13860500988996 /* LaunchScreen.storyboard in Resources */,
 				1AB18FCD2B13860500988996 /* Assets.xcassets in Resources */,
-				1AB18FCB2B13860400988996 /* Main.storyboard in Resources */,
+				1A64BE1B2B1968E300FCD12A /* MainViewController.xib in Resources */,
+				1A415DF12B390B4200329538 /* PhotoCollectionViewCell.xib in Resources */,
+				1AB18FDE2B13922E00988996 /* OnboardingCollectionViewCell.xib in Resources */,
+				1A9FC0C62B3C881900AC93DA /* SearchTextCollectionViewCell.xib in Resources */,
+				1AB18FDA2B1387D100988996 /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB18FC82B13860400988996 /* ViewController.swift in Sources */,
 				1AB18FC42B13860400988996 /* AppDelegate.swift in Sources */,
+				1A415DF02B390B4200329538 /* PhotoCollectionViewCell.swift in Sources */,
+				1A9FC0C12B3C81EC00AC93DA /* ImageScrollViewController.swift in Sources */,
+				1AB18FE02B139A2F00988996 /* OnboardingModel.swift in Sources */,
+				1AB18FD92B1387D100988996 /* OnboardingViewController.swift in Sources */,
+				1A64BE1A2B1968E300FCD12A /* MainViewController.swift in Sources */,
+				1A5124AB2B370FA100CCCC7C /* SearchPhotosResponse.swift in Sources */,
+				1A9FC0C52B3C881900AC93DA /* SearchTextCollectionViewCell.swift in Sources */,
 				1AB18FC62B13860400988996 /* SceneDelegate.swift in Sources */,
+				1AB18FDD2B13922E00988996 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1AB18FC92B13860400988996 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AB18FCA2B13860400988996 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1AB18FCE2B13860500988996 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +337,9 @@
 				INFOPLIST_FILE = PixelPond/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +365,9 @@
 				INFOPLIST_FILE = PixelPond/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
